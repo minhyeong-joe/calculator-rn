@@ -7,14 +7,14 @@ import { View, Text, StyleSheet, Image, Linking, TouchableOpacity } from 'react-
 const Footer = () => {
   return (
     <View style={styles.container}>
-      <TouchableOpacity onPress={()=>Linking.openURL('https://sanheng03.github.io')}>
+      <TouchableOpacity onPress={()=>Linking.openURL('https://mj-webdev.com')}>
         <Image style={styles.abouticon} source={require('./img/about.png')} />
       </TouchableOpacity>
       <View>
         <Text style={styles.text}>© Copyright 2017</Text>
         <Text style={styles.text}>Minhyeong Billy Joe</Text>
       </View>
-      <TouchableOpacity onPress={()=>Linking.openURL('https://github.com/sanheng03')}>
+      <TouchableOpacity onPress={()=>Linking.openURL('https://github.com/minhyeong-joe')}>
         <Image style={styles.githubicon} source={require('./img/github.png')} />
       </TouchableOpacity>
       <TouchableOpacity onPress={()=>Linking.openURL('https://expo.io/@sanheng03')}>
